@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Donnie Alimov portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./quiz.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href=""><img class="logo" src="./Donnie2.JPG" alt="mypicture"></a>
+        <a class="navbar-brand" href="#">Donnie Alimov's Portfolio</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Experience</a>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome!</h1>
+         <h4>Test your Javascript knowladge with quick Quiz!</h4>
+    </header>
+    <div class="grid">
+      <div id="quiz">
+          <h1>Quiz</h1>
+          <hr style="margin-bottom: 20px">
+
+          <p id="question"></p>
+
+          <div class="buttons">
+              <button id="btn0"><span id="choice0"></span></button>
+              <button id="btn1"><span id="choice1"></span></button>
+              <button id="btn2"><span id="choice2"></span></button>
+              <button id="btn3"><span id="choice3"></span></button>
+          </div>
+
+          <hr style="margin-top: 150px">
+          <footer>
+              <p id="progress">Question x of y</p>
+          </footer>
+      </div>
+  </div>
+
+
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+  <a href="#" class="fa fa-youtube"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-pinterest"></a>
+</div>
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+<div class="icon-bar">
+</body>
+</html>
