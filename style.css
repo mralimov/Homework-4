@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 body    {
     margin: 0;
     font-size: 16;
@@ -82,14 +83,22 @@ body    {
     border-radius: 5px;
     margin-bottom: 10px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 .quiz-box .btn{
     margin: 15px 0;
 
 }
+.quiz-box .answer-indicator{
+    border-top: 1px solid #cccccc;
+    }
+
 .quiz-box .answer-indicator div{
 height: 40px;
 width: 40px;
 display: inline-block;
 background-color: #cccccc;
+border-radius: 50%;
+margin-right: 3px;
+margin-top: 15px    ;
 }
